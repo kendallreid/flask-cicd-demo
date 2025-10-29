@@ -4,8 +4,8 @@ from flask import Flask
 app = Flask(__name__)
 @app.route("/")
 def home():
-    return "<h1>￿ Hello from Flask CI/CD Demo v1!</h1><p>Automatic Build → Test → Deploy via"
-    "GitHub Actions.</p>"
+    return "<h1>￿ Hello from Flask CI/CD Demo v1!</h1>"
+        "<p>Automatic Build → Test → Deploy via GitHub Actions.</p>"
 
 
 if __name__ == "__main__":
